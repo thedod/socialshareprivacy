@@ -1,0 +1,20 @@
+Version 1.2
+
+JS: Facebook App-ID entfernt, da diese nicht mehr noetig ist, um den Like/Recommend-Button zu nutzen.
+Version 1.1
+
+CSS: Bei diversen Elementen haben wir mehr Angaben hinzugefuegt, um die Nacharbeiten, bei der Integration in eigene Seiten, geringer zu halten. Vor allem haben wir margin-, padding-, width- und height-Angaben hinzugefügt.
+Die Doku wurde um einen Beispiele- und diesen Change-Log-Bereich erweitert.
+Das Plug-In wurde inhaltlich etwas umgestellt und einige Code-Abkürzungen vorgenommen.
+JS-Bug Korrektur: Es gab einen Fehler, wenn es in der Seite ein canonical-Attribut gab, das aber einen leeren Wert hatte.
+JS-Bug Korrektur: Bei den Optionen von Google+ gab es eine Angabe, die später im Script nie abgefragt wurde.
+JS-Bug Korrektur: Die Perma-Option von Google+ wurde nur angezeigt, wenn auch die Perma-Option von Twitter aktiviert war.
+Twitter: Wenn aktiviert war das iFrame zu groß und überlagerte darunter liegende Links. <iframe ...style="width:130px; height:25px;"></iframe> ergänzt.
+Allgemein: Wenn die Option css_path leer ist, wird kein <link>-Tag mit leerem href in die Seite eingebaut.
+Allgemein: Die von den Buttons verwendete URI kann jetzt über die Option uri gesteuert werden. Es ist sowohl ein fester Wert, wie auch eine Function möglich. Default ist die enthaltene Funktion getURI
+Neue Features:
+Facebook: Die Beschriftungsvarianten des Buttons "Empfehlen" und "Gefällt mir" kann über die neue Option "action" gesteuert werden. Werte sind "recommend" (default) und "like".
+Twitter: Parameter "language" (default "en") jetzt auch für Twitter.
+Version 1.0
+
+Erstes öffentliches Release
