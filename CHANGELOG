@@ -1,3 +1,14 @@
+Version 1.4
+
+    Grafik: Da Google+ eine neue aktive Grafik einsetzt, wurde nun auch die inaktive Google+ Grafik angepasst
+    alt: alte Google+ Grafik
+    neu: neue Google+ Grafik
+
+Version 1.3
+
+    Erste Fassung, die auch mehrmals auf einer Seite verwendet werden kann. Damit in den verschiedenen Instanzen unterschiedliche URIs verwendet werden können, wird der per Option uri gesetzen Funktion ein Kontext-DOM-Knoten übergeben, über den man eine URI ermitteln kann. Beispiele für die Verwendung haben wir in der Dokumentation bei den Beispiel-Einbindungen ergänzt.
+    Korrektur für IE < 9: Das per css_path angegebene Stylesheet wurde mit jQuery-Versionen != 1.4.2 nicht eingebaut.
+
 Version 1.2
 
 JS: Facebook App-ID entfernt, da diese nicht mehr noetig ist, um den Like/Recommend-Button zu nutzen.
