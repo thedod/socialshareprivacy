@@ -35,7 +35,7 @@ window.ssp_settings_en = {
             'language'          : 'en'
         }
     },
-    'info_link'         : 'http://www.heise.de/ct/artikel/2-Klicks-fuer-mehr-Datenschutz-1333879.html',
+    'info_link'         : 'http://thedod.github.com/socialshareprivacy/about.html',
     'txt_help'          : 'If you activate these widgets, your visit here will be tracked by Facebook, Twitter and/or Google. Click for more information',
     'settings_perma'    : 'Automatically enable widgets on this site for:',
     'cookie_path'       : '/',
@@ -80,7 +80,7 @@ window.ssp_settings_en_like = {
             'language'          : 'en'
         }
     },
-    'info_link'         : 'http://www.heise.de/ct/artikel/2-Klicks-fuer-mehr-Datenschutz-1333879.html',
+    'info_link'         : 'http://thedod.github.com/socialshareprivacy/about.html',
     'txt_help'          : 'If you activate these widgets, your visit here will be tracked by Facebook, Twitter and/or Google. Click for more information',
     'settings_perma'    : 'Automatically enable widgets on this site for:',
     'cookie_path'       : '/',
