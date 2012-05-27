@@ -43,7 +43,6 @@ window.ssp_settings_template_en = {
 
 window.ssp_settings_en = function(settings) {
   settings = $.extend(true,{}, window.ssp_settings_template_en, settings||{});
-  console.log(settings);
   settings.css_path = settings.media_prefix+settings.css_path;
   for (service in settings.services) {
     settings.services[service].dummy_img = settings.media_prefix+settings.services[service].dummy_img;
