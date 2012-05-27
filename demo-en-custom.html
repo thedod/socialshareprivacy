@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Example of customized English "+2 widget"</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.socialshareprivacy.min.js"></script>
+  <script type="text/javascript" src="ssp_settings_en.js"></script>
+  <script type="text/javascript">
+  $(function() {
+    $('#share-me').socialSharePrivacy(window.ssp_settings_en(
+      {
+        'media_prefix':'http://thedod.github.com/socialshareprivacy/socialshareprivacy/',
+        'services': {
+          'facebook': {
+            'action':'like', 'dummy_img':'images/dummy_facebook_en_like.png',
+            'perma_option': 'on'
+          },
+          'twitter': {'perma_option': 'on'},
+          'gplus': {'perma_option': 'on'}
+        },
+      }));
+  });
+  </script>
+</head>
+<body>
+<h2>Example of customized English "+2 widget"</h2>
+Here we customize the default English settings like this:
+<pre>
+    $('#share-me').socialSharePrivacy(window.ssp_settings_en(
+      {
+        'media_prefix':'http://thedod.github.com/socialshareprivacy/socialshareprivacy/',
+        'services': {
+          'facebook': {
+            'action':'like', 'dummy_img':'images/dummy_facebook_en_like.png',
+            'perma_option': 'on'
+          },
+          'twitter': {'perma_option': 'on'},
+          'gplus': {'perma_option': 'on'}
+        },
+      }));
+</pre>
+<ul>
+  <li>media_prefix is now defined as an absolute url.
+      Originally, it assumed media was under <em>socialshareprivacy/</em> relative to the current page\       (and it kinda sucked). Note that yyou don't need the <em>http://...</em>. A media_prefix can simply start with a <em>/</em></li>
+  <li>Facebook has a "like" button instead of "recommend"
+      (we also need to change <em>dummy_img</em> for this).</li>
+  <li>User can auto-enable widget for all 3 services (this is stored as site-wise cookie).<br>
+    <strong>Note:</strong> In the original
+    <a target="_blank" href="http://www.heise.de/extras/socialshareprivacy/">German version</a>
+    this is enabled by default, but I took the liberty to disable it by default in the
+    <a target="_blank" href="http://thedod.github.com/socialshareprivacy/">English version</a>,
+    because I don't think it's a good idea :)</li>
+</ul>
+<p>See also: <a href="demo-en.html">Example with default settings</a></p>
+<div id="share-me"></div>
+</body>
