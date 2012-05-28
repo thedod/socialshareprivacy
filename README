@@ -1,15 +1,13 @@
 
 This is an unoffical 1:1 clone of the offical socialshareprivay code from:
-
 http://www.heise.de/extras/socialshareprivacy/
 
-It also contains i18n from German to English (I'm lovin' this :) ).
-
-Demos and docs of English support: http://thedod.github.com/socialshareprivacy/
+This version also contains internationalization (from German to English).
+Homepage of this version: http://thedod.github.com/socialshareprivacy/
 
 All copyrights lie with the heise developers:
 
 * Copyright (c) 2011 Hilko Holweg, Sebastian Hilbig, Nicolas Heiringhoff, Juergen Schmidt,
 * Heise Zeitschriften Verlag GmbH & Co. KG, http://www.heise.de
 *
-* is released under the MIT License http://www.opensource.org/licenses/mit-license.php
+* Released under the MIT License http://www.opensource.org/licenses/mit-license.php
